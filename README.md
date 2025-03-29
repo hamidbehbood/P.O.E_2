@@ -51,7 +51,13 @@ In this project, we use the OpenAI API key as we need to use chat GPT in the las
 
 
 ## 1.2 OpenAI API key :
-visit this site: https://platform.openai.com/docs/overview
+ 1. visit this site: https://platform.openai.com/docs/overview
+ 2. Login
+ 3. visit here and add money as much as you like: https://platform.openai.com/settings/organization/billing/overview
+ 4. make a new API key here and save it somewhere safe because we need it later:https://platform.openai.com/settings/organization/api-keys
+ 5. This is the key that we use in the first part for Perplexica
+    
+
 
 
 
