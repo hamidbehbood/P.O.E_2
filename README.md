@@ -28,11 +28,11 @@ After cloning, navigate to the directory containing the project files.
 
 Rename the sample.config.toml file to config.toml. For Docker setups, you need only fill in the following fields:
 
-OPENAI: Your OpenAI API key. You only need to fill this if you wish to use OpenAI's models.
+OPENAI: Your OpenAI API key. You only need to fill this out if you wish to use OpenAI's models.
 
-OLLAMA: Your Ollama API URL. You should enter it as http://host.docker.internal:PORT_NUMBER. If you installed Ollama on port 11434, use http://host.docker.internal:11434. For other ports, adjust accordingly. You need to fill this if you wish to use Ollama's models instead of OpenAI's.
+OLLAMA: Your Ollama API URL. You should enter it as http://host.docker.internal:PORT_NUMBER. If you installed Ollama on port 11434, use http://host.docker.internal:11434. For other ports, adjust accordingly. You need to fill this out if you wish to use Ollama's models instead of OpenAI's.
 
-GROQ: Your Groq API key. You only need to fill this if you wish to use Groq's hosted models.
+GROQ: Your Groq API key. You only need to fill this out if you wish to use Groq's hosted models.
 
 ANTHROPIC: Your Anthropic API key. You only need to fill this if you wish to use Anthropic models.
 
@@ -55,9 +55,42 @@ In this project, we use the OpenAI API key as we need to use chat GPT in the las
  2. Login
  3. visit here and add money as much as you like: https://platform.openai.com/settings/organization/billing/overview
  4. make a new API key here and save it somewhere safe because we need it later:https://platform.openai.com/settings/organization/api-keys
- 5. This is the key that we use in the first part for Perplexica
-    
+ 5. This is the key that we use in the first part for the Perplexica configuration as well.
 
+## 1.3 FetchFox :
+
+FetchFox is an AI-powered scraping, automation, and data extraction library.
+
+It can scrape data from any webpage using just plain English. It is made by the developers of the FetchFox AI scraper.
+
+To use this library  we need to install Node.js as it is based on JavaScript.
+
+### 1.3.1 Node.js
+
+you can install Node.js from here easily: https://nodejs.org/en.
+
+Run these commands also in your terminal:
+
+npm i fetchfox
+npx playwright install-deps
+npx playwright install
+npm i csv 
+npm i axios
+
+Now you can clone this POE.2.js file into your computer and open it.
+
+## How to work with code 
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
