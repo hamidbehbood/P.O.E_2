@@ -11,8 +11,8 @@
 
  ** Installation: **
 
- There are mainly 2 ways of installing Perplexica - With Docker and without Docker.Here we are going to use the docker to install it on your machine :
+ There are mainly 2 ways of installing Perplexica - With Docker and without Docker. Here we are going to use the docker to install it on your machine :
 
- if you do not know what docker is, you  can visit <a href='https://www.docker.com/'>here</a>
+ if you do not know what docker is, you  can visit <a href='https://docs.docker.com/get-started/docker-overview/'>here</a>
 
  
