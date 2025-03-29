@@ -6,22 +6,23 @@
 
  The first element is Perplexica :
 
- ## Perplexica :
+ ## 1.1 Perplexica :
  Perplexica is an open-source AI-powered searching tool or an AI-powered search engine that goes deep into the internet to find answers. Inspired by Perplexity AI, it's an open-source option that not just searches the web but understands your questions. It uses advanced machine learning algorithms like similarity searching and embeddings to refine results and provides clear answers with sources cited.
 
- **Installation:**
+ ###1.1.1Installation:
 
  There are mainly 2 ways of installing Perplexica - With Docker and without Docker. Here we are going to use the docker to install it on your machine :
 
  if you do not know what docker is, you  can visit <a href='https://docs.docker.com/get-started/docker-overview/'>here</a>
  for docker installation, you can visit <a href='https://www.docker.com/'> here </a> 
  
- ### Getting Started with Docker 
+ #### Getting Started with Docker:
  Ensure Docker is installed and running on your system.
 
 Clone the Perplexica repository:
 
 git clone https://github.com/ItzCrazyKns/Perplexica.git
+(you can find a little tip with cloning <a href='https://www.google.com/search?q=how+clone+a+repository&oq=how+clone+arepo&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCggCEAAYCBgNGB4yCggDEAAYCBgNGB4yCggEEAAYCBgNGB4yCggFEAAYCBgNGB4yCggGEAAYCBgNGB4yCggHEAAYCBgNGB4yCggIEAAYCBgNGB4yCggJEAAYCBgNGB7SAQg2MDcxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:9a9f356b,vid:bQrtezWlphU,st:0'> here </a>)
 After cloning, navigate to the directory containing the project files.
 
 Rename the sample.config.toml file to config.toml. For Docker setups, you need only fill in the following fields:
