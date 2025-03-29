@@ -9,7 +9,7 @@
  ## 1.1 Perplexica :
  Perplexica is an open-source AI-powered searching tool or an AI-powered search engine that goes deep into the internet to find answers. Inspired by Perplexity AI, it's an open-source option that not just searches the web but understands your questions. It uses advanced machine learning algorithms like similarity searching and embeddings to refine results and provides clear answers with sources cited.
 
- ###1.1.1Installation:
+ ###1.1.1 Installation:
 
  There are mainly 2 ways of installing Perplexica - With Docker and without Docker. Here we are going to use the docker to install it on your machine :
 
@@ -23,6 +23,7 @@ Clone the Perplexica repository:
 
 git clone https://github.com/ItzCrazyKns/Perplexica.git
 (you can find a little tip with cloning <a href='https://www.google.com/search?q=how+clone+a+repository&oq=how+clone+arepo&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCggCEAAYCBgNGB4yCggDEAAYCBgNGB4yCggEEAAYCBgNGB4yCggFEAAYCBgNGB4yCggGEAAYCBgNGB4yCggHEAAYCBgNGB4yCggIEAAYCBgNGB4yCggJEAAYCBgNGB7SAQg2MDcxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:9a9f356b,vid:bQrtezWlphU,st:0'> here </a>)
+
 After cloning, navigate to the directory containing the project files.
 
 Rename the sample.config.toml file to config.toml. For Docker setups, you need only fill in the following fields:
@@ -42,5 +43,16 @@ SIMILARITY_MEASURE: The similarity measure to use (This is filled by default; yo
 Ensure you are in the directory containing the docker-compose.yaml file and execute:
 
 docker compose up -d
+
 Wait a few minutes for the setup to complete. You can access Perplexica at http://localhost:3000 in your web browser.
+
+so now you have an AI search engine and you can test or use it but before you need an Open AI key.
+In this project, we use the OpenAI API key as we need to use chat GPT in the last part as well.
+
+
+## 1.2 OpenAI API key :
+visit this site: https://platform.openai.com/docs/overview
+
+
+
  
