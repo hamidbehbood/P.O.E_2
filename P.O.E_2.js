@@ -11,7 +11,7 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 // The above line is used to get the directory path of the current module in an ES module environment.
 // 'import.meta.url' gives the URL of the current module, and 'pathname' gives its file path.
 
-const openaiApiKey = "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"; 
+const openaiApiKey = ""; 
 // Store the OpenAI API key used for authentication when calling the OpenAI API.
 // Replace the API key here with your own to connect to the OpenAI service.
 
