@@ -72,10 +72,15 @@ you can install Node.js from here easily: https://nodejs.org/en.
 Run these commands also in your terminal:
 
 npm i fetchfox
+
 npx playwright install-deps
+
 npx playwright install
+
 npm i csv 
+
 npm i axios
+
 
 Now you can clone this POE.2.js file into your computer and open it.
 
