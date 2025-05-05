@@ -79,7 +79,14 @@ npm i axios
 
 Now you can clone this POE.2.js file into your computer and open it.
 
-## How to work with code 
+## 2. How to work with code 
+You must pass the building names along with the code in a CSV file.
+You can use the CSV file sample to get an idea, or change it and use it.
+Open the code with your editor(I recommend VS Code) and run it.
+
+You will get the result for each file as one sprate CSV file.
+The delimiter in a CSV file is one '|'.
+
 
 
 
